@@ -1,7 +1,7 @@
 <?php
 
 namespace Tests;
-use SleepFinance\Eip712;
+use Ironchoi\Eip712;
 use Tests\TestCase;
 
 /**
