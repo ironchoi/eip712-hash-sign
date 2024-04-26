@@ -1,8 +1,8 @@
 # `eip-712`
 
-[![PHP](https://github.com/sleepfinance/eip712/actions/workflows/tests.yml/badge.svg)](https://github.com/sleepfinance/eip712/actions/workflows/php.yml)
-[![codecov](https://codecov.io/gh/sleepfinance/eip712/branch/main/graph/badge.svg?token=CPJCHXZTN2)](https://codecov.io/gh/sleepfinance/eip712)
-[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sleepfinance/eip712/blob/master/LICENSE)
+[![PHP](https://github.com/ironchoi/eip712-hash-sign/actions/workflows/tests.yml/badge.svg)](https://github.com/ironchoi/eip712-hash-sign/actions/workflows/php.yml)
+[![codecov](https://codecov.io/gh/ironchoi/eip712-hash-sign/branch/main/graph/badge.svg?token=CPJCHXZTN2)](https://codecov.io/gh/ironchoi/eip712-hash-sign)
+[![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/ironchoi/eip712-hash-sign/blob/master/LICENSE)
 
 This is a library laravel / php to help generata an EIP712 Hash for signing and verifying [EIP-712](https://eips.ethereum.org/EIPS/eip-712) based messages. It is fully written for php 8.0, and is currently only compatible with the latest specification of EIP-712 ([eth_signTypedData_v4](https://docs.metamask.io/guide/signing-data.html#sign-typed-data-v4)).
 
@@ -13,7 +13,7 @@ Note that this library currently does not handle the signing itself. For this, y
 ## Installation
 
 ```bash
-$ composer require sleepfinance/eip712
+$ composer require ironchoi/eip712-hash-sign
 ```
 
 ### Getting Started
@@ -198,7 +198,7 @@ function hexup(string $value): string
 
 ### Encoder Functions
 
-Here is a brief description of the functions available in the encoder. For more detailed examples, you can refer to [`src/tests`](https://github.com/sleepfinance/eip712/blob/master/tests).
+Here is a brief description of the functions available in the encoder. For more detailed examples, you can refer to [`src/tests`](https://github.com/ironchoi/eip712-hash-sign/blob/master/tests).
 
 #### `Encoder::encode(SleepFinance\Eip712 $typedData)`
 
@@ -301,8 +301,7 @@ To do this, Intialize EIP172 with your custom domain; schema validation will be 
 $eip712 = new Eip712($mailTypedJson, 'MyCustomDomain');
 ```
 
-[twitter]('https://twitter.com/sleeprotocol')
-[Telegram]('https://t.me/sleepfinance')
+[Telegram]('https://t.me/caitiemin')
 
 ## see you on the flipside!
 
