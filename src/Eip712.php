@@ -1,6 +1,6 @@
 <?php
 
-namespace SleepFinance;
+namespace Ironchoi;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Fluent;
