@@ -2,7 +2,7 @@
 
 namespace SleepFinance;
 use kornrunner\Keccak;
-use SWeb3\ABI;
+use SimpleWeb3\ABI;
 
 class Encoder
 {
