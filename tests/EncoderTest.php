@@ -1,8 +1,8 @@
 <?php
 
 namespace Tests;
-use SleepFinance\Eip712;
-use SleepFinance\Encoder;
+use Ironchoi\Eip712;
+use Ironchoi\Encoder;
 use Tests\TestCase;
 
 /**
